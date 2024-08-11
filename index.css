@@ -90,7 +90,6 @@ header {
 
 
 .banner{
-    /* border-bottom: 2px solid grey; */
     background-color: white;
     background-size: cover;
     background-position: center;
@@ -142,23 +141,7 @@ font-size: 1.2rem;
 font-weight: 500;
 }
 
-
-.banner-button {
-  border: 3px solid red;
-  border-radius: 10px;
-  display: block;
-  text-decoration: none;
-  width: 150px;
-  height: 50px;
-
-}
-.banner-button:hover {
-  border: none;
-  background-color: red;
-  transition: red 2s ease-in-out;
-  cursor: pointer;
-}
-.hero-images{
+.banner-images{
     height: 100%;
     background-image: url(images2/chelsea-audibert-hV1gChgMa-k-unsplash.jpg);
     background-position: center;
@@ -170,17 +153,10 @@ font-weight: 500;
     grid-row: span 2;
     
 }
-.hero-images img:hover{
+.banner-images img:hover{
     position: relative;
     top: 0;
 }
-
-
-
-
-
-
-
 
 
 
@@ -238,7 +214,6 @@ font-weight: 500;
 .about-image{
     background-image: url(images2/portrait-smiling-young-male-baker-showing-freshly-baked-bread-wooden-shovel.jpg);
     background-size: cover;
-    /* height: 80%; */
     padding-top: 20px;
     margin-top: 150px;
     margin-left: 100px;
@@ -272,10 +247,6 @@ font-weight: 500;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
-    /* animation: fade-in linear; */
-    /* animation-timeline: view(); */
-    /* animation-range-start: cover; */
-    /* animation-range-end: 700px; */
 }
 .product h1 {
     grid-column: span 4;
@@ -499,7 +470,6 @@ footer {
 @media screen and (max-width: 430px) {
 
     body{
-        /* max-width: 430px; */
         width: 430px;
     }
     header {
