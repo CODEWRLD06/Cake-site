@@ -1,0 +1,106 @@
+body{
+    background-color: #f4f4f4;
+    max-width: 100%;
+    margin: 0;
+    margin-top: -20px;
+}
+nav{
+    background-color: white;
+    border-bottom: 1px solid gray;
+    padding: 5px 5px;
+    height: 80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.main-header{
+    padding: 15px;
+    padding-bottom: 0;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.header-text{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.social a{
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.social a:hover{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 20px;
+}
+.fa-square-x-twitter{
+    font-size: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form{
+    display: grid;
+    gap: 20px;
+}
+h1{
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container h1{
+    justify-self: center;
+}
+
+.input-container{
+    margin-top: 30px;
+}
+
+.input{
+    display: grid;
+    gap: 50px;
+}
+
+h1, .name, .email, .message, .submit{
+    color: white;
+}
+input[type="text"], input[type="email"] {
+    position: relative;
+    top: -45px;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#message{
+    position: relative;
+    top: -45px;
+    height: 20vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
